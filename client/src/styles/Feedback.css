@@ -1,0 +1,28 @@
+/* Feedback.css */
+
+.feedback-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-container p {
+    margin: 8px 0;
+  }
+  
+  .overall-feedback {
+    font-size: 18px;
+    font-weight: bold;
+    color: #900;
+    margin-top: 20px;
+  }
+  
+  /* You can add more styles based on your design requirements */
+  

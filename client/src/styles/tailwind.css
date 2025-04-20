@@ -1,0 +1,60 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add custom styles here */
+
+/* Center the content vertically */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Style the feedback details container */
+.feedback-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the feedback entries */
+.feedback-entry {
+    margin-bottom: 16px;
+}
+
+/* Style the nested list */
+.feedback-entry ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+/* Style the heading */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Style the key label */
+.key-label {
+    color: #4285f4;
+    font-weight: bold;
+}
+
+/* Style the value */
+.value {
+    color: #1a1a1a;
+}
+
+/* Style the link */
+.link {
+    color: #0066cc;
+    text-decoration: underline;
+}

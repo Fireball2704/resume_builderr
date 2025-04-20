@@ -1,0 +1,26 @@
+/* ResumeList.css */
+.resume-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.resume-item {
+  flex: 0 0 calc(18% - 10px);
+  position: relative;
+  cursor: pointer;
+}
+
+.resume-item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .resume-item {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
